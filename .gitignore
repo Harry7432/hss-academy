@@ -1,0 +1,55 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Artefatos de build e compilação
+dist/
+dist-electron/
+release/
+
+# Logs e depuração
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Arquivos de sistema e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Arquivos temporários e backups
+*.tmp
+*.bak
+*.temp
+
+# Dados locais e vídeos particulares
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+*.m4v
+*.pdf
+hss_academy_data*.json
+
+# Garante que arquivos de código TypeScript nunca sejam ignorados
+!src/**/*.ts
+!src/**/*.tsx
+!tests/**/*.ts
+!tests/**/*.tsx
+
+# Documentação interna de desenvolvimento local
+HSS_ACADEMY_PROJETO.md
+PROMPT_GEMINI_HSS_ACADEMY.md
